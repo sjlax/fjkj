@@ -35,7 +35,6 @@ public class UserMapperImpl implements UserMapper{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		 System.out.println("38383838");
         session.insert("UserDaoMapping.insertUser", user);  
         session.commit();  
         session.close();  
