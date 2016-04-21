@@ -17,6 +17,8 @@ public interface UserMapper {
 //	List<User> findAll();
 	
 
+	
+	
 	public void insertUser(User user);
 	public int selectTotalRecord();
 	public void insertCusUser(CusUser cusUser);
